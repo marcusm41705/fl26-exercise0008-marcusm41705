@@ -251,11 +251,19 @@
 	"CMAKE_SOURCE_DIR" : "/mnt",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/mnt/label_printer.h",
+			"Mu",
+			"EWIEGA46WW/moc_label_printer.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/mnt/build/hello_label_autogen/include",
 	"MOC_COMPILATION_FILE" : "/mnt/build/hello_label_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [],
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -267,13 +275,18 @@
 	[
 		"/mnt/build",
 		"/mnt",
+		"/usr/include/x86_64-linux-gnu/qt6/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt6",
+		"/usr/include/x86_64-linux-gnu/qt6/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt6/QtGui",
+		"/usr/include",
 		"/usr/include/c++/11",
 		"/usr/include/x86_64-linux-gnu/c++/11",
 		"/usr/include/c++/11/backward",
 		"/usr/lib/gcc/x86_64-linux-gnu/11/include",
 		"/usr/local/include",
-		"/usr/include/x86_64-linux-gnu",
-		"/usr/include"
+		"/usr/include/x86_64-linux-gnu"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
 	"MOC_OPTIONS" : [],
@@ -299,7 +312,8 @@
 	"SETTINGS_FILE" : "/mnt/build/CMakeFiles/hello_label_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/mnt/hello_label.cpp", "Mu", null ]
+		[ "/mnt/hello_label.cpp", "Mu", null ],
+		[ "/mnt/label_printer.cpp", "Mu", null ]
 	],
 	"VERBOSITY" : 0
 }

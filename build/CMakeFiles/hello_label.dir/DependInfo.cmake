@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/hello_label.cpp" "CMakeFiles/hello_label.dir/hello_label.cpp.o" "gcc" "CMakeFiles/hello_label.dir/hello_label.cpp.o.d"
   "/mnt/build/hello_label_autogen/mocs_compilation.cpp" "CMakeFiles/hello_label.dir/hello_label_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/hello_label.dir/hello_label_autogen/mocs_compilation.cpp.o.d"
+  "/mnt/label_printer.cpp" "CMakeFiles/hello_label.dir/label_printer.cpp.o" "gcc" "CMakeFiles/hello_label.dir/label_printer.cpp.o.d"
   )
 
 # Targets to which this target links.

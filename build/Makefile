@@ -264,6 +264,30 @@ hello_static_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_static.dir/build.make CMakeFiles/hello_static.dir/hello_static_autogen/mocs_compilation.cpp.s
 .PHONY : hello_static_autogen/mocs_compilation.cpp.s
 
+label_printer.o: label_printer.cpp.o
+.PHONY : label_printer.o
+
+# target to build an object file
+label_printer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_label.dir/build.make CMakeFiles/hello_label.dir/label_printer.cpp.o
+.PHONY : label_printer.cpp.o
+
+label_printer.i: label_printer.cpp.i
+.PHONY : label_printer.i
+
+# target to preprocess a source file
+label_printer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_label.dir/build.make CMakeFiles/hello_label.dir/label_printer.cpp.i
+.PHONY : label_printer.cpp.i
+
+label_printer.s: label_printer.cpp.s
+.PHONY : label_printer.s
+
+# target to generate assembly for a file
+label_printer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_label.dir/build.make CMakeFiles/hello_label.dir/label_printer.cpp.s
+.PHONY : label_printer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,6 +312,9 @@ help:
 	@echo "... hello_static_autogen/mocs_compilation.o"
 	@echo "... hello_static_autogen/mocs_compilation.i"
 	@echo "... hello_static_autogen/mocs_compilation.s"
+	@echo "... label_printer.o"
+	@echo "... label_printer.i"
+	@echo "... label_printer.s"
 .PHONY : help
 
 

@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/hello_label.dir/hello_label.cpp.o.d"
   "CMakeFiles/hello_label.dir/hello_label_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/hello_label.dir/hello_label_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/hello_label.dir/label_printer.cpp.o"
+  "CMakeFiles/hello_label.dir/label_printer.cpp.o.d"
   "hello_label"
   "hello_label.pdb"
 )
