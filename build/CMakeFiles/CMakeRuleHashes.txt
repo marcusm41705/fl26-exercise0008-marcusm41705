@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+9dffc04b993b9bb20581dee04d71e941 CMakeFiles/hello_static_autogen
