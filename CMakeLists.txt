@@ -10,5 +10,7 @@ find_package(Qt6Widgets REQUIRED)
 # Add your executable and sources
 add_executable(hello_static hello_static.cpp)
 
+add_executable(hello_label hello_label.cpp)
 # Link Qt6 Widgets
 target_link_libraries(hello_static Qt6::Widgets)
+

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/hello_label.dir/hello_label_autogen/mocs_compilation.cpp.o CMakeFiles/hello_label.dir/hello_label.cpp.o -o hello_label 

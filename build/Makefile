@@ -130,6 +130,19 @@ hello_static/fast:
 .PHONY : hello_static/fast
 
 #=============================================================================
+# Target rules for targets named hello_label
+
+# Build rule for target.
+hello_label: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_label
+.PHONY : hello_label
+
+# fast build rule for target.
+hello_label/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_label.dir/build.make CMakeFiles/hello_label.dir/build
+.PHONY : hello_label/fast
+
+#=============================================================================
 # Target rules for targets named hello_static_autogen
 
 # Build rule for target.
@@ -141,6 +154,67 @@ hello_static_autogen: cmake_check_build_system
 hello_static_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_static_autogen.dir/build.make CMakeFiles/hello_static_autogen.dir/build
 .PHONY : hello_static_autogen/fast
+
+#=============================================================================
+# Target rules for targets named hello_label_autogen
+
+# Build rule for target.
+hello_label_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_label_autogen
+.PHONY : hello_label_autogen
+
+# fast build rule for target.
+hello_label_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_label_autogen.dir/build.make CMakeFiles/hello_label_autogen.dir/build
+.PHONY : hello_label_autogen/fast
+
+hello_label.o: hello_label.cpp.o
+.PHONY : hello_label.o
+
+# target to build an object file
+hello_label.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_label.dir/build.make CMakeFiles/hello_label.dir/hello_label.cpp.o
+.PHONY : hello_label.cpp.o
+
+hello_label.i: hello_label.cpp.i
+.PHONY : hello_label.i
+
+# target to preprocess a source file
+hello_label.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_label.dir/build.make CMakeFiles/hello_label.dir/hello_label.cpp.i
+.PHONY : hello_label.cpp.i
+
+hello_label.s: hello_label.cpp.s
+.PHONY : hello_label.s
+
+# target to generate assembly for a file
+hello_label.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_label.dir/build.make CMakeFiles/hello_label.dir/hello_label.cpp.s
+.PHONY : hello_label.cpp.s
+
+hello_label_autogen/mocs_compilation.o: hello_label_autogen/mocs_compilation.cpp.o
+.PHONY : hello_label_autogen/mocs_compilation.o
+
+# target to build an object file
+hello_label_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_label.dir/build.make CMakeFiles/hello_label.dir/hello_label_autogen/mocs_compilation.cpp.o
+.PHONY : hello_label_autogen/mocs_compilation.cpp.o
+
+hello_label_autogen/mocs_compilation.i: hello_label_autogen/mocs_compilation.cpp.i
+.PHONY : hello_label_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+hello_label_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_label.dir/build.make CMakeFiles/hello_label.dir/hello_label_autogen/mocs_compilation.cpp.i
+.PHONY : hello_label_autogen/mocs_compilation.cpp.i
+
+hello_label_autogen/mocs_compilation.s: hello_label_autogen/mocs_compilation.cpp.s
+.PHONY : hello_label_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+hello_label_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_label.dir/build.make CMakeFiles/hello_label.dir/hello_label_autogen/mocs_compilation.cpp.s
+.PHONY : hello_label_autogen/mocs_compilation.cpp.s
 
 hello_static.o: hello_static.cpp.o
 .PHONY : hello_static.o
@@ -198,8 +272,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... hello_label_autogen"
 	@echo "... hello_static_autogen"
+	@echo "... hello_label"
 	@echo "... hello_static"
+	@echo "... hello_label.o"
+	@echo "... hello_label.i"
+	@echo "... hello_label.s"
+	@echo "... hello_label_autogen/mocs_compilation.o"
+	@echo "... hello_label_autogen/mocs_compilation.i"
+	@echo "... hello_label_autogen/mocs_compilation.s"
 	@echo "... hello_static.o"
 	@echo "... hello_static.i"
 	@echo "... hello_static.s"

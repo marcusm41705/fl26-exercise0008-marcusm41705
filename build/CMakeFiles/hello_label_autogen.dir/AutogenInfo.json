@@ -1,5 +1,5 @@
 {
-	"BUILD_DIR" : "/mnt/build/hello_static_autogen",
+	"BUILD_DIR" : "/mnt/build/hello_label_autogen",
 	"CMAKE_BINARY_DIR" : "/mnt/build",
 	"CMAKE_CURRENT_BINARY_DIR" : "/mnt/build",
 	"CMAKE_CURRENT_SOURCE_DIR" : "/mnt",
@@ -253,9 +253,9 @@
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/mnt/build/hello_static_autogen/include",
-	"MOC_COMPILATION_FILE" : "/mnt/build/hello_static_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"INCLUDE_DIR" : "/mnt/build/hello_label_autogen/include",
+	"MOC_COMPILATION_FILE" : "/mnt/build/hello_label_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -267,18 +267,13 @@
 	[
 		"/mnt/build",
 		"/mnt",
-		"/usr/include/x86_64-linux-gnu/qt6/QtWidgets",
-		"/usr/include/x86_64-linux-gnu/qt6",
-		"/usr/include/x86_64-linux-gnu/qt6/QtCore",
-		"/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++",
-		"/usr/include/x86_64-linux-gnu/qt6/QtGui",
-		"/usr/include",
 		"/usr/include/c++/11",
 		"/usr/include/x86_64-linux-gnu/c++/11",
 		"/usr/include/c++/11/backward",
 		"/usr/lib/gcc/x86_64-linux-gnu/11/include",
 		"/usr/local/include",
-		"/usr/include/x86_64-linux-gnu"
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
 	"MOC_OPTIONS" : [],
@@ -291,20 +286,20 @@
 		"-c",
 		"/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/mnt/build/hello_static_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/mnt/build/hello_label_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
-	"MOC_SKIP" : [],
+	"MOC_SKIP" : [ "/mnt/build/hello_static_autogen/mocs_compilation.cpp" ],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 16,
-	"PARSE_CACHE_FILE" : "/mnt/build/CMakeFiles/hello_static_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/mnt/build/CMakeFiles/hello_label_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 2,
-	"SETTINGS_FILE" : "/mnt/build/CMakeFiles/hello_static_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/mnt/build/CMakeFiles/hello_label_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/mnt/hello_static.cpp", "Mu", null ]
+		[ "/mnt/hello_label.cpp", "Mu", null ]
 	],
 	"VERBOSITY" : 0
 }
